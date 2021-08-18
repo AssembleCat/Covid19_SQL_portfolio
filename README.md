@@ -1,7 +1,7 @@
--RESOURCES AND TOOLS
+-RESOURCES AND TOOLS 
+다음의 자료와 개발도구를 사용했음을 밝힙니다.
 - https://ourworldindata.org/covid-death
 - Microsoft SQL Server management studio
-- EXCEL
 
 
 
@@ -131,8 +131,8 @@ Join PortfolioProject_1..CovidVaccinations vac
 --where dea.continent is not null 
 --order by 2,3
 
-Select *, (RollingPeopleVaccinated/Population)*100
-From #PercentPopulationVaccinated
+-- Select *, (RollingPeopleVaccinated/Population)*100
+-- From #PercentPopulationVaccinated
 
 
 
